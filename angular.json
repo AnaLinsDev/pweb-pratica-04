@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -44,6 +47,7 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
+              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -126,8 +130,5 @@
       }
     }
   },
-  "defaultProject": "social",
-  "cli": {
-    "analytics": "fbd5aae1-8f8c-48c9-93f9-b1357d776b3f"
-  }
+  "defaultProject": "social"
 }
